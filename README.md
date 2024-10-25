@@ -38,7 +38,11 @@
 
 * **주문**
 
-    - [x] **Kafka**를 통해 주문, 재고 - 결제 - 배송 - 알림 서비스 간 **비동기 통신** 구현 (Order 시퀀스 다이어그램 어디에 넣을까요 ..? by 경진)
+    - [x] **Kafka**를 통해 주문, 재고 - 결제 - 배송 - 알림 서비스 간 **비동기 통신** 구현
+    - [x] Order 서비스가 주문의 전체 프로세스를 관리하고, 결제 및 배송 서비스에 대한 상태 변경을 트리거하는 방식으로 구현
+          <details><summary>**주문 시퀀스 다이어그램**</summary>
+          ![image](https://github.com/user-attachments/assets/7feed1cb-f1f9-4dd2-a5c9-718e2289ee55)
+          </details>
     - [x] **TTL** 설정을 통해 주문 요청 후 5분 동안 결제 미진행 시, 주문 자동 취소
 
 * **예약 구매**
@@ -121,18 +125,23 @@
 
 * **CI/CD**
 
+<br>
 
 ## 📚 API 명세서
 
 ### [POSTMAN DOCS](https://documenter.getpostman.com/view/26598837/2sAY4rGRdh) 
+<br>
 
 ## 🧩ERD
 ![pickple](https://github.com/user-attachments/assets/5641d753-fc1e-47d9-a1a8-eb1c28ed75ac)
 
+<br>
 
 ## 🗂️ 인프라 설계도
 ![image](https://github.com/user-attachments/assets/2cb9c935-d668-4eff-8062-b829010212d7)
 
+- **배포 링크** [🔗링크](http://ec2-52-206-139-65.compute-1.amazonaws.com:19091/)
+  <br>
 - **서비스 구조**
 
 | Service	             | Description	    | Authorization	 | Port   |
@@ -145,10 +154,13 @@
 | [`Payment`]          | 결제 도메인 작업 관리    |                | `19095` |
 | [`Delivery`]         | 배송 도메인 작업 관리 |                | `19096` |
 | [`Notification`]     | 알람 도메인 작업 관리    |                | `19097` |
+<br>
 
 ## 🚧 트러블 슈팅
 
 ### [WIKI](https://github.com/pickple-ecommerce/backend/wiki/Pickple-Trouble-Shooting-Wiki)
+
+<br>
 
 ## ✏️ 프로젝트 실행 방법
 
@@ -163,6 +175,7 @@
     docker-compose -f docker-compose.dev.yml --env-file dev.env
     docker-compose -f docker-compose.service.yml --env-file dev.env
    ```
+<br>
 
 ## 🅰️ 팀 ATEEN
 
