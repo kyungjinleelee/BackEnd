@@ -1,7 +1,7 @@
 🥦 PICKPLE
 =============
 ![pickple_logo 복사본](https://github.com/user-attachments/assets/34bb530d-d258-4836-ab36-5830ce1525f8)
-
+![image](https://github.com/user-attachments/assets/e014bea0-6b17-44ea-80d5-a37697fb50b4)
 ## 📢 프로젝트 간단 소개
 
 ### **Pickple**! (Pick + people)
@@ -10,17 +10,20 @@
 
 **대규모 트래픽**을 견딜 수 있는 이커머스 서비스를 구축하여, 사용자에게 빠르고 안정적인 쇼핑 경험을 제공합니다.
 
+<br>
+
 ## 🎯 프로젝트 목표
 
 - **MSA** 구조를 통해 서비스의 확장성과 유연성을 확보
 - **Kafka**와 **Redis**를 활용하여 **비동기 메시징으로 서비스 간 통신 및 캐싱**을 통해 안정적이고 빠른 서비스 구축
 - **동시성** 처리를 통한 안정성 있는 서비스 구축
 
+<br>
+
 ## 🛠️ 기술 스택
 
 ### Backend
 <img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white"><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"><img src="https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"><img src="https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"><img src="https://img.shields.io/badge/REDIS-FF4438?style=for-the-badge&logo=redis&logoColor=white"><img src="https://img.shields.io/badge/apachekafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"><img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"><img src="https://img.shields.io/badge/springsecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"><img src="https://img.shields.io/badge/jsonwebtokens-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"><img src="https://img.shields.io/badge/springDataJPA-90E59A?style=for-the-badge&logo=springboot&logoColor=white"><img src="https://img.shields.io/badge/JUnit5-FB4F14?style=for-the-badge&logo=JUnit5&logoColor=white">
-
 
 ### DevOps
 <img src="https://img.shields.io/badge/amazonec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"><img src="https://img.shields.io/badge/amazonrds-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"><img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"><img src="https://img.shields.io/badge/githubactions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"><img src="https://img.shields.io/badge/apachejmeter-D22128?style=for-the-badge&logo=apachejmeter&logoColor=white"><img src="https://img.shields.io/badge/prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"><img src="https://img.shields.io/badge/grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white">
@@ -28,6 +31,8 @@
 
 ### Tools
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"><img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"><img src="https://img.shields.io/badge/intellijidea-000000?style=for-the-badge&logo=intellijidea&logoColor=white"><img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"><img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+
+<br>
 
 ## 🪄 주요 기능
 
